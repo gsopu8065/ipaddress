@@ -31,13 +31,13 @@ exports.config = {
   },
 
 
-  // Use browser.params in order to access to these parameters.
+  /*// Use browser.params in order to access to these parameters.
   params: {
     url: {
       baseURL: 'http://localhost:9001/',
       testURL: 'http://localhost:9001/index.html'
     }
-  },
+  },*/
 
   // Options to be passed to Jasmine-node.
   jasmineNodeOpts: {

@@ -96,7 +96,7 @@ module.exports = function (grunt) {
       },
       test: {
         options: {
-          port: 9001,
+          port: 9000,
           base: [
             '.tmp',
             'test',
@@ -115,11 +115,9 @@ module.exports = function (grunt) {
       },
       e2e: {
         options: {
-          port: 9001,
+          port: 9000,
           base: [
-            '.tmp/instrumented/app',
-            'env',
-            'test-iface'
+            '.tmp/instrumented/app'
           ]
         }
       }
@@ -668,7 +666,7 @@ module.exports = function (grunt) {
       chrome: {
         options: {
           args: {
-            baseUrl: 'http://localhost:9001/',
+            baseUrl: 'http://localhost:9000/',
             'browser': 'chrome'
           }
         }
